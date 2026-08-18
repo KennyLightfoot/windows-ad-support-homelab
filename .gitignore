@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+credentials*
+secrets*
+
+# VM media and backup archives must never be committed
+*.iso
+*.vma
+*.vma.zst
+*.qcow2
+*.raw
+
+# Logs may contain identifiers; add only reviewed/sanitized evidence
+logs/*
+!logs/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
