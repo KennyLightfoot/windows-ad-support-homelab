@@ -1,0 +1,4 @@
+asset_id,hostname,type,manufacturer_model,serial_placeholder,assigned_user,location,ip_or_dhcp,operating_system,criticality,warranty_placeholder,last_verified,notes
+A-001,LAB-DC01,Virtual Server,Proxmox VM,LAB-ONLY,IT,LAB,10.10.3.20,Windows Server 2025,High,,,AD DS; DNS; SMB test share
+A-002,LAB-PC01,Virtual Workstation,Proxmox VM,LAB-ONLY,Test User,LAB,10.10.3.30,Windows 11 Enterprise Evaluation,Medium,,,Domain joined; Workstations OU
+A-003,OPNsense,Virtual Firewall,Proxmox VM,LAB-ONLY,IT,LAB,10.10.3.1,OPNsense,High,,,LAB gateway and firewall
